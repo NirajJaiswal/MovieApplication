@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity(), MovieListener {
                     isPaginationAllowed = false
                     Handler(Looper.getMainLooper()).postDelayed({
                         viewModel.getValue(++page)
-                    }, 4000)
+                    }, 3000)
                 }
             })
 
